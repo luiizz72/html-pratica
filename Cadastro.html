@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro</title>
+  </head>
+
+  <body>
+    <h1>Cadastro</h1>
+    <hr />
+     <center>
+    <table border="1" cellpadding="8">
+      <tr>
+        <td>
+          <form>
+           <h3>Cadastro do Usuario </h3>
+            <hr />
+            <label>Nome:</label><br />
+            <input type="text" name="nome" size="40" /><br /><br />
+
+            <label>Endereço:</label><br />
+            <input type="text" name="endereco" size="40" /><br /><br />
+
+            <label>Cidade:</label><br />
+            <input type="text" name="cidade" size="30" /><br /><br />
+
+            <label>CPF:</label><br />
+            <input type="text" name="cpf" size="30" /><br /><br />
+
+            <label>RG:</label><br />
+            <input type="text" name="rg" size="30" /><br /><br />
+
+            <label>Estado Civil:</label><br />
+            <select name="estado_civil">
+              <option>Solteiro</option>
+              <option>Casado</option>
+              <option>Desquitado</option>
+            </select>
+
+          <center> <h3>Marcas de Preferência</h3></center>
+
+            <input type="checkbox" name="marca" value="s" /> Sansung<br />
+            <input type="checkbox" name="marca" value="t" /> TCA<br />
+            <input type="checkbox" name="marca" value="d" /> Dell<br />
+            <input type="checkbox" name="marca" value="p" />Philips<br /><br />
+            
+            <input type="submit" value="Salvar" />
+            <input type="reset" value="Apagar Dados" /> 
+           </center>
+  </body>
+</html>
