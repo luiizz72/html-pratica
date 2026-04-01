@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Formulário Inteligente</title>
+<style>
+.tamanho {
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Formulario Inteligente</h1>
+
+<form>
+
+<fieldset class="tamanho">
+<legend>Dados pessoais</legend>
+
+<label>Nome completo:</label><br>
+<input type="text" name="nome" required placeholder="Digite seu nome completo">
+<br><br>
+
+<label>Email:</label><br>
+<input type="email" name="email" required placeholder="exemplo@gmail.com">
+<br><br>
+
+<label>Senha:</label><br>
+<input type="password" name="senha" required minlength="6" pattern="[0-9a-zA-Z]+" placeholder="mínimo 6 caracteres">
+<br><br>
+
+<label>Confirmar senha:</label><br>
+<input type="password" name="confirmar" required>
+<br><br>
+
+<label>Idade:</label><br>
+<input type="number" min="18" max="100" required>
+<br><br>
+
+<label>Data de nascimento:</label><br>
+<input type="date" required>
+<br><br>
+
+<label>Sexo:</label><br>
+<input type="radio" name="sexo" required> Masculino
+<input type="radio" name="sexo"> Feminino
+<br><br>
+
+<label>Interesses:</label><br>
+<input type="checkbox"> Esporte
+<input type="checkbox"> Tecnologia
+<input type="checkbox"> Música
+<br><br>
+
+<label>País:</label><br>
+<select required>
+  <option value="">Selecione</option>
+  <option>Brasil</option>
+  <option>Portugal</option>
+  <option>Argentina</option>
+</select>
+<br><br>
+
+<label>Comentário:</label><br>
+<textarea rows="4" cols="40" placeholder="Digite algo..."></textarea>
+<br><br>
+
+<input type="submit" value="Salvar">
+<input type="reset" value="Limpar">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
