@@ -1,60 +1,57 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
     <title>Página</title>
 
     <style>
       body {
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
+        background-color: #ccc;
       }
 
-      /* folha */
       .formulario {
         width: 800px;
         margin: 30px auto;
         background-color: white;
         padding: 30px;
         border-radius: 10px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
       }
 
       h6 {
         color: orange;
       }
 
-      .imagem {
-        width: 100%;
-        height: auto;
-      }
-
       p {
         font-size: 14px;
-        line-height: 1.6;
       }
 
       h5 {
-        margin-left: 20px;
+        margin-left: 0px;
         background-color: #f45b26;
         font-size: 17px;
         padding: 5px;
       }
 
       h3 {
-        margin-left: 25px;
+        left: 5px;
         color: #ffc300;
       }
 
-      /* cor só do "Por" */
       .por {
         color: orange;
-        font-weight: bold;
       }
 
-      /* autor sem cor */
       .autor {
         color: black;
+      }
+      .barra span {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+      }
+
+      .laranja {
+        background-color: orange;
+        width: 97%;
       }
     </style>
   </head>
@@ -62,8 +59,7 @@
   <body>
     <form class="formulario">
       <h6>TÍTULO SUBTÍTULO</h6>
-
-      <img class="imagem" src="pedreiroo.png" alt="Imagem" />
+      <img class="imagem" src="principal.png" style="width: 800px" />
 
       <h1 style="font-size: 40px">Como Usar Este Modelo</h1>
 
@@ -72,7 +68,10 @@
         <span class="autor">[Autor do Artigo]</span>
       </h6>
 
-      <h5>DIGITE O SLOGAN AQUI</h5>
+      <div class="barra">
+        <span class="laranja">DIGITE O SLOGAN AQUI</span>
+        <span class="cinza">NESTA EDIÇÃO</span>
+      </div>
       <p>
         Este boletim informativo é criado principalmente usando colunas de
         texto, para que o conteúdo quebre automaticamente de uma coluna para a
